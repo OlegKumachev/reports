@@ -7,7 +7,7 @@
 1. **Клонируйте репозиторий**:
 
     ```bash
-    git clone git@github.com:OlegKumachev/kiout-test-backend.git
+    git clone git@github.com:OlegKumachev/reports.git
     ```
 
 2. **Установка зависимостей**:
