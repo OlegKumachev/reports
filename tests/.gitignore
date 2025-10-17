@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Poetry
+poetry.lock
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Pytest cache
+.pytest_cache/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
