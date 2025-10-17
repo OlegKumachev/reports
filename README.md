@@ -13,7 +13,7 @@
 2. **Установка зависимостей**:
 
     ```bash
-    poerty lock
+    poetry lock
     poetry install
     ```
 
