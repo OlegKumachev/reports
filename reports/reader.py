@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 from typing import List
 
-from report.types import EmployeeDict
+from reports.types import EmployeeDict
 
 
 def read_csv_files(paths:List[Path]) -> List[EmployeeDict]:

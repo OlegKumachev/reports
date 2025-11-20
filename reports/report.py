@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from collections import defaultdict
 from typing import List
 from tabulate import tabulate
-from report.types import EmployeeDict
+from reports.types import EmployeeDict
 
 
 class Report(ABC):
@@ -29,7 +29,7 @@ class PerformanceReport(Report):
             except (KeyError, ValueError):
                 continue
         if not position_perf:
-            return  return f"{self.name}\n{'-' * len(self.name)}\nNo data"
+            return  f"{self.name}\n{'-' * len(self.name)}\nNo data"
         table_data = []
         for position, value in position_perf.items():
             avg = round(statistics.mean(value), 2)
