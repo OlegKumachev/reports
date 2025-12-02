@@ -14,12 +14,17 @@
     ```bash
     uv sync
     ```
+3. **Перейдите в папку скрипта**:
 
-4. **Запуск приложения**:
+    ```bash
+    cd reports
+    ```
+
+5. **Запуск приложения**:
 
     ```bash
     uv run reports --files employees1.csv employees2.csv --report performance
 
-5. **Пример вывода отчета**
+6. **Пример вывода отчета**
 
  ![Пример запуска скрипта](/report.png)

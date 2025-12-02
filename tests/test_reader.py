@@ -5,7 +5,6 @@ from reports.reader import read_csv_files
 
 
 def test_read_csv_files_combines_multiple_files(tmp_path: Path):
-    # Создаём два файла
     file1 = tmp_path / "f1.csv"
     file2 = tmp_path / "f2.csv"
 
